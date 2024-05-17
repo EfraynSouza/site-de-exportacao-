@@ -35,7 +35,7 @@
     </div>
   </div>
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+<footer class="text-center text-lg-start bg-dark text-light-emphasis ">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
@@ -91,19 +91,22 @@
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
-              Products
+              Produtos
             </h6>
             <p>
-              <a href="#!" class="text-reset">Angular</a>
+              <a href="#!" class="text-reset">Pratos</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">React</a>
+              <a href="#!" class="text-reset">vasos</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Vue</a>
+              <a href="#!" class="text-reset">esculturas</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Laravel</a>
+              <a href="#!" class="text-reset">saleiro</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">caneca</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -115,16 +118,16 @@
               Useful links
             </h6>
             <p>
-              <a href="#!" class="text-reset">Pricing</a>
+              <a href="#!" class="text-reset">Instagram</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Settings</a>
+              <a href="#!" class="text-reset">Facebook</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Orders</a>
+              <a href="#!" class="text-reset">Github</a>
             </p>
             <p>
-              <a href="#!" class="text-reset">Help</a>
+              <a href="#!" class="text-reset">Linkedin</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -133,7 +136,7 @@
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
-            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-home me-3"></i> Diadema, 10012, SP</p>
             <p>
               <i class="fas fa-envelope me-3"></i>
               mainarte@gmail.com
