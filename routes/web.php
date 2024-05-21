@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CategoriaController;
 use App\Http\Controllers\ContatoController;
 use App\Models\Contato;
 use Illuminate\Support\Facades\Route;
@@ -18,4 +19,6 @@ Route::get('/sobre-nos', function () {
 Route::get('/', function () {
     return view('app.home');
 })->name('home');
+
+Route:: resource('categorias', CategoriaController::class);
 
