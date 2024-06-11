@@ -548,7 +548,7 @@ section {
     <a href="{{route('vasos')}}">Vasos</a>
     <a href="{{route('canecas')}}">Canecas</a>
     <a href="{{route('esculturas')}}">Esculturas</a>
-    <a href="#">Quem somos</a>
+    <a href="{{route('sobre-nos')}}">Quem somos</a>
     <a href="#">Como comprar</a>
     <a href="#">Políticas da loja</a>
 </div>

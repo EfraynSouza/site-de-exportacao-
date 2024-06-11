@@ -605,7 +605,7 @@ section {
 
     <section id="menu">
             <h2 class="section-title">Peças</h2>
-            <h3 class="section-subtitle">Pratos</h3>
+            <h3 class="section-subtitle">Canecas</h3>
 
             <div id="dishes">
                 <div class="dish">
@@ -613,14 +613,15 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                            <img src="{{ asset('img/caneca_ceramica_artesanal.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Caneca artesanal
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Com impressão botânica; peça única e exclusiva feita de forma manual
+                    Tamanho: Médio
                     </span>
 
                     <div class="dish-rate">
@@ -629,11 +630,11 @@ section {
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
+                        <span>(50+)</span>
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$30,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -645,14 +646,15 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                        <img src="{{ asset('img/xicaras_com_impressao_botanica.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Xícara botânica
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Xícaras, com impressão botânica; peça   única e exclusiva feita de forma manual.
+                    Tamanho: 8x8x8
                     </span>
 
                     <div class="dish-rate">
@@ -661,11 +663,11 @@ section {
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
+                        <span>(300+)</span>
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$38,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -677,14 +679,14 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/conjuntos_de_pires_e_xicara.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                    Conjunto de Pires e Xicara
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cerâmica Artesanal, com impressão botânica; peça única e exclusiva feita de forma manual
                     </span>
 
                     <div class="dish-rate">
@@ -697,7 +699,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$85,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -709,14 +711,16 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/copos_com_impressao_botanica.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Copos com impressão botânica
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Peça única e exclusiva feita de forma manual.
+                    Tamanho: 7x7x7
+
                     </span>
 
                     <div class="dish-rate">
@@ -725,11 +729,11 @@ section {
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
+                        <span>(200+)</span>
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$32,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -739,8 +743,6 @@ section {
         </section>
 
         <section id="menu">
-            <h2 class="section-title">Peças</h2>
-            <h3 class="section-subtitle">Pratos</h3>
 
             <div id="dishes">
                 <div class="dish">
