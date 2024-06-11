@@ -163,13 +163,21 @@ header {
     display: flex;
     align-items: start;
     justify-content: end;
-    width: 70%;
+    width: 90%;
     z-index: 2;
+    border-radius: 15px;
+    margin-top: 50px;
 }
 
 #banner img {
     height: 100%;
     width: fit-content;
+    border-radius: 90px;
+}
+
+.image_banner {
+    border-radius: 15px
+    
 }
 
 .shape {
@@ -549,8 +557,6 @@ section {
     <a href="{{route('canecas')}}">Canecas</a>
     <a href="{{route('esculturas')}}">Esculturas</a>
     <a href="{{route('sobre-nos')}}">Quem somos</a>
-    <a href="#">Como comprar</a>
-    <a href="#">Políticas da loja</a>
 </div>
 
 
@@ -615,13 +621,12 @@ section {
             <div class="shape"></div>
             <div id="cta">
                 <h1 class="title">
-                    as melhores peças para
+                    As melhores peças para
                     <span>você</span>
                 </h1>
 
                 <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit ut aliquam, purus sit amet
+                    
                 </p>
 
                 <div id="cta_buttons">
@@ -653,7 +658,7 @@ section {
             </div>
 
             <div id="banner">
-                <img src="src/images/logoo.png" alt="">
+                <img src="{{ asset('img/Logo.jpeg')}}" alt="">
             </div>
         </section>
 
@@ -667,14 +672,15 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/JogoDeCanecas.jpeg" class="dish-image" alt="">
+                    <img src="{{ asset('img/bown_azuis_cristais.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Bown cristais azuis
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        4 peças, feita de forma manual, unicas e exclusivas
+                    Tamanho: 20x15
                     </span>
 
                     <div class="dish-rate">
@@ -687,7 +693,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$289,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -699,14 +705,15 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/dish2.png" class="dish-image" alt="">
+                    <img src="{{ asset('img/incensario_com_impressao_botanica.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Incensário com impressão botânica
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Incensário com impressão botânica, peça única e exclusiva feita de forma manual
+                        Tamanho: 10x8x2
                     </span>
 
                     <div class="dish-rate">
@@ -719,7 +726,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$40,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -731,14 +738,15 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/dish3.png" class="dish-image" alt="">
+                    <img src="{{ asset('img/caneca_ceramica_artesanal.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Caneca artesanal
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Com impressão botânica; peça única e exclusiva feita de forma manual
+                    Tamanho: Médio
                     </span>
 
                     <div class="dish-rate">
@@ -751,7 +759,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$30,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -763,14 +771,15 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/dish4.png" class="dish-image" alt="">
+                    <img src="{{ asset('img/escultura_de_onca.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Escultura de onça
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Impressão botânica, peça única e exclusiva feita de forma manual
+                        Tamanho: 28x10x15
                     </span>
 
                     <div class="dish-rate">
@@ -783,7 +792,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$490,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -805,11 +814,11 @@ section {
 
                 <div id="feedbacks">
                     <div class="feedback">
-                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+                        <img src="{{ asset('img/dona_clara.jpg')}}" class="feedback-avatar" alt="">
 
                         <div class="feedback-content">
                             <p>
-                                Fulana de Tal
+                                Clara Souza
                                 <span>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -825,11 +834,11 @@ section {
                     </div>
 
                     <div class="feedback">
-                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+                        <img src="{{ asset('img/dona_sara.jpg')}}" class="feedback-avatar" alt="">
 
                         <div class="feedback-content">
                             <p>
-                                Fulana de Tal
+                                Sara Rodrigues
                                 <span>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -839,8 +848,7 @@ section {
                                 </span>
                             </p>
                             <p>
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                                Repellat voluptatibus cumque dolor ea est quae alias necessitatibus"
+                                "Eu adorei os produtos dessa loja, são muito bonitos e chegaram sem nenhum arranhão"
                             </p>
                         </div>
                     </div>
@@ -858,7 +866,7 @@ section {
 
         <div id="footer_items">
             <span id="copyright">
-                &copy 2024
+                &copy 2024 ceramicasena22@gmail.com
             </span>
 
             <div class="social-media-buttons">
@@ -880,6 +888,3 @@ section {
 </body>
 </html>
 @endsection
-
-
-    

@@ -549,8 +549,6 @@ section {
     <a href="{{route('canecas')}}">Canecas</a>
     <a href="{{route('esculturas')}}">Esculturas</a>
     <a href="{{route('sobre-nos')}}">Quem somos</a>
-    <a href="#">Como comprar</a>
-    <a href="#">Políticas da loja</a>
 </div>
 
 
@@ -706,3 +704,28 @@ section {
                     </div>
                 </div>
         </section>
+
+        <footer>
+            <img src="src/images/wave.svg" alt="">
+    
+            <div id="footer_items">
+                <span id="copyright">
+                    &copy 2024 ceramicasena22@gmail.com
+                </span>
+    
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+    
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+    
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="src/javascript/script.js"></script>
