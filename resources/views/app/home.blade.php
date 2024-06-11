@@ -575,9 +575,16 @@ section {
                 </li>
             </ul>
 
-            <button class="btn-default">
-                Peça aqui
-            </button>
+            @auth
+            <form action="{{ route('logout')}}" method="post">
+                @csrf
+                <input type="submit" class="btn-default" style="text-decoration: none; color: black" value="Sair">
+            </form>
+            @else
+            <a class="btn-default" href="{{ route('login') }}" style="text-decoration: none; color: black       ">
+                Login
+            </a>
+            @endauth
 
             <button id="mobile_btn">
                 <i class="fa-solid fa-bars"></i>
@@ -598,7 +605,7 @@ section {
             </ul>
 
             <button class="btn-default">
-                Peça aqui
+                Login
             </button>
         </div>
     </header>
