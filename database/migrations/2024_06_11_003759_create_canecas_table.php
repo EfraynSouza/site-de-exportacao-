@@ -13,7 +13,11 @@ return new class extends Migration
     {
         Schema::create('canecas', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string("nome");
+            $table->float("preco", 10, 2);
+            $table->string("descricao");
+            $table->string("imagem");
+            $table->unsignedBigInteger("categoria_id")->nullable();
         });
     }
 

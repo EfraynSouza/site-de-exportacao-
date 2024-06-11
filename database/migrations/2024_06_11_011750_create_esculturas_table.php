@@ -13,7 +13,12 @@ return new class extends Migration
     {
         Schema::create('esculturas', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string("nome");
+            $table->float("preco", 10, 2);
+            $table->float("tamanho", 15);
+            $table->string("descricao");
+            $table->string("imagem");
+            $table->unsignedBigInteger("categoria_id")->nullable();
         });
     }
 

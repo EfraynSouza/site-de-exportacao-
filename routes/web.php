@@ -15,6 +15,13 @@ Route::get('/sobre-nos', function () {return view('app.sobre-nos');})->name('sob
 
 Route::get('/pratos', function () {return view('app.pratos');})->name('pratos');
 
+Route::get('/canecas', function () {return view('app.canecas');})->name('canecas');
+
+Route::get('/vasos', function () {return view('app.vasos');})->name('vasos');
+
+Route::get('/esculturas', function () {return view('app.esculturas');})->name('esculturas');
+
+
 Route::get('/', function () {return view('app.home');})->name('home');
 
 Route:: resource('categorias', CategoriaController::class);
