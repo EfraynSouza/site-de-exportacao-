@@ -548,7 +548,7 @@ section {
     <a href="{{route('vasos')}}">Vasos</a>
     <a href="{{route('canecas')}}">Canecas</a>
     <a href="{{route('esculturas')}}">Esculturas</a>
-    <a href="#">Quem somos</a>
+    <a href="{{route('sobre-nos')}}">Quem somos</a>
     <a href="#">Como comprar</a>
     <a href="#">Políticas da loja</a>
 </div>
@@ -565,7 +565,7 @@ section {
 
             <ul id="nav_list">
                 <li class="nav-item active">
-                    <a href="#home">Início</a>
+                <a href="{{route('home')}}">Início</a>
                 </li>
                 <li class="nav-item">
                     <a href="#menu">Produtos</a>
@@ -605,7 +605,7 @@ section {
 
     <section id="menu">
             <h2 class="section-title">Peças</h2>
-            <h3 class="section-subtitle">Pratos</h3>
+            <h3 class="section-subtitle">Vasos</h3>
 
             <div id="dishes">
                 <div class="dish">
@@ -613,14 +613,15 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/incensario_com_impressao_botanica.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                    Incensário com impressão botânica
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Incensário com impressão botânica, peça única e exclusiva feita de forma manual
+                        Tamanho: 10x8x2
                     </span>
 
                     <div class="dish-rate">
@@ -633,7 +634,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$40,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -645,14 +646,14 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/Incensario_Folhamusgo.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                    Incensário Folha musgo
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cêramica artesanal, com impressão botânica peça única e exclusiva feita de forma manual
                     </span>
 
                     <div class="dish-rate">
@@ -665,7 +666,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$60,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -677,14 +678,15 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/incensario_peca_unica.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                    Incensário peça única
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Peça única e exclusiva feita de forma manual
+                        Tamanho: 25cm
                     </span>
 
                     <div class="dish-rate">
@@ -697,7 +699,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$110,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -709,14 +711,14 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/petiqueira_embauba.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                    Petisqueira embaúba
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cêramica artesanal com impressão botânica, peça única e exclusiva feita de forma manual
                     </span>
 
                     <div class="dish-rate">
@@ -729,7 +731,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$40,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -739,8 +741,6 @@ section {
         </section>
 
         <section id="menu">
-            <h2 class="section-title">Peças</h2>
-            <h3 class="section-subtitle">Pratos</h3>
 
             <div id="dishes">
                 <div class="dish">
@@ -748,14 +748,14 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/petisqueira_minibown.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                    Petisqueira minibown
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Cêramica artesanal com impressão botânica, peça única e exclusiva feita de forma manual
                     </span>
 
                     <div class="dish-rate">
@@ -768,7 +768,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$50,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -780,14 +780,15 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/porta_lapis.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                    Porta lápis
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Peça exclusiva feita de forma manual
+                        Tamanho: 13x8
                     </span>
 
                     <div class="dish-rate">
@@ -800,7 +801,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$50,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -812,14 +813,15 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/pote_decorativo_com_impressao_botanica.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                    Pote decorativo com impressão botanica
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Impressão botanica, peça única e exclusiva feita de forma manual
+                        Tamanho: 20x20x10
                     </span>
 
                     <div class="dish-rate">
@@ -832,7 +834,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$120,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -844,14 +846,15 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/travessa_formato_peixe.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Peixe de cêramica
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Peça única e exclusiva feita de forma manual
+                        Tamanho: 30x14
                     </span>
 
                     <div class="dish-rate">
@@ -864,7 +867,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$150,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>

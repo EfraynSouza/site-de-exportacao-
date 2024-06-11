@@ -598,7 +598,7 @@ section {
 
             <ul id="nav_list">
                 <li class="nav-item active">
-                    <a href="#home">Início</a>
+                <a href="{{route('home')}}">Início</a>
                 </li>
                 <li class="nav-item">
                     <a href="#menu">Produtos</a>

@@ -548,7 +548,7 @@ section {
     <a href="{{route('vasos')}}">Vasos</a>
     <a href="{{route('canecas')}}">Canecas</a>
     <a href="{{route('esculturas')}}">Esculturas</a>
-    <a href="#">Quem somos</a>
+    <a href="{{route('sobre-nos')}}">Quem somos</a>
     <a href="#">Como comprar</a>
     <a href="#">Políticas da loja</a>
 </div>
@@ -565,7 +565,7 @@ section {
 
             <ul id="nav_list">
                 <li class="nav-item active">
-                    <a href="#home">Início</a>
+                <a href="{{route('home')}}">Início</a>
                 </li>
                 <li class="nav-item">
                     <a href="#menu">Produtos</a>
@@ -587,7 +587,7 @@ section {
         <div id="mobile_menu">
             <ul id="mobile_nav_list">
                 <li class="nav-item">
-                    <a href="#home">Início</a>
+                <a href="{{route('home')}}">Início</a>
                 </li>
                 <li class="nav-item">
                     <a href="#menu">Cardápio</a>
@@ -605,7 +605,7 @@ section {
 
     <section id="menu">
             <h2 class="section-title">Peças</h2>
-            <h3 class="section-subtitle">Pratos</h3>
+            <h3 class="section-subtitle">Esculturas</h3>
 
             <div id="dishes">
                 <div class="dish">
@@ -613,14 +613,15 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/escultura_de_onca.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                    Escultura de onça
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Impressão botânica, peça única e exclusiva feita de forma manual
+                        Tamanho: 28x10x15
                     </span>
 
                     <div class="dish-rate">
@@ -633,7 +634,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$490,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -645,14 +646,15 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/Folha_de_lirio.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                    Folha de lírio
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Impressão botânica, peça única e exclusiva feita de forma manual
+                        Tamanho: 30x15x2
                     </span>
 
                     <div class="dish-rate">
@@ -665,7 +667,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$130,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -677,14 +679,14 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/rsz_1apoio_de_colher_folha.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                    Apoio de colher folha
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Apoio de folha de costela de Adão em cêramica artesanal, com impressão botânica peça única e exclusiva feita de forma manual
                     </span>
 
                     <div class="dish-rate">
@@ -697,178 +699,10 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$150,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
                     </div>
                 </div>
-
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/" class="dish-image" alt="">
-
-                    <h3 class="dish-title">
-                        Lorem Ipsum
-                    </h3>
-
-                    <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </span>
-
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="menu">
-            <h2 class="section-title">Peças</h2>
-            <h3 class="section-subtitle">Pratos</h3>
-
-            <div id="dishes">
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/" class="dish-image" alt="">
-
-                    <h3 class="dish-title">
-                        Lorem Ipsum
-                    </h3>
-
-                    <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </span>
-
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/" class="dish-image" alt="">
-
-                    <h3 class="dish-title">
-                        Lorem Ipsum
-                    </h3>
-
-                    <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </span>
-
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/" class="dish-image" alt="">
-
-                    <h3 class="dish-title">
-                        Lorem Ipsum
-                    </h3>
-
-                    <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </span>
-
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="dish">
-                    <div class="dish-heart">
-                        <i class="fa-solid fa-heart"></i>
-                    </div>
-
-                    <img src="src/images/" class="dish-image" alt="">
-
-                    <h3 class="dish-title">
-                        Lorem Ipsum
-                    </h3>
-
-                    <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </span>
-
-                    <div class="dish-rate">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <span>(500+)</span>
-                    </div>
-
-                    <div class="dish-price">
-                        <h4>R$20,00</h4>
-                        <button class="btn-default">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
         </section>

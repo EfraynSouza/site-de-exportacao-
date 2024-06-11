@@ -548,7 +548,7 @@ section {
     <a href="{{route('vasos')}}">Vasos</a>
     <a href="{{route('canecas')}}">Canecas</a>
     <a href="{{route('esculturas')}}">Esculturas</a>
-    <a href="#">Quem somos</a>
+    <a href="{{route('sobre-nos')}}">Quem somos</a>
     <a href="#">Como comprar</a>
     <a href="#">Políticas da loja</a>
 </div>
@@ -565,7 +565,7 @@ section {
 
             <ul id="nav_list">
                 <li class="nav-item active">
-                    <a href="#home">Início</a>
+                <a href="{{route('home')}}">Início</a>
                 </li>
                 <li class="nav-item">
                     <a href="#menu">Produtos</a>
@@ -750,14 +750,14 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/jogo_de_canecas.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Jogo de canecas
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Impressão botânica, 8 peças exclusivas e únicas, feita de forma manual
                     </span>
 
                     <div class="dish-rate">
@@ -770,7 +770,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$239,90</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -782,14 +782,14 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/kit_hora_do_cafe.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Kit hora do café
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Com impressão botânica, peça unica e exclusiva feita de forma manual
                     </span>
 
                     <div class="dish-rate">
@@ -802,7 +802,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$400,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -814,14 +814,15 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/kit_xicaras_12.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                        Kit xícaras
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        12 peças, impressão botânica com peças feitas de forma manual
+                        Tamanho: 10x11 (xícaras), 18x13 (pratos)
                     </span>
 
                     <div class="dish-rate">
@@ -834,7 +835,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$310,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
@@ -846,14 +847,14 @@ section {
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="src/images/" class="dish-image" alt="">
+                    <img src="{{ asset('img/kit_xicaras_e_leiteira.jpg')}}" class="dish-image" alt="">
 
                     <h3 class="dish-title">
-                        Lorem Ipsum
+                    Kit xicaras e leiteira
                     </h3>
 
                     <span class="dish-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        5 peças únicas e exclusivas feitas de forma manual, leiteira 1L
                     </span>
 
                     <div class="dish-rate">
@@ -866,7 +867,7 @@ section {
                     </div>
 
                     <div class="dish-price">
-                        <h4>R$20,00</h4>
+                        <h4>R$250,00</h4>
                         <button class="btn-default">
                             <i class="fa-solid fa-basket-shopping"></i>
                         </button>
