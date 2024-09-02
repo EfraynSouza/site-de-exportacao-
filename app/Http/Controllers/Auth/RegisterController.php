@@ -7,6 +7,25 @@ use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\support\Facades\Register;
+
+public function store(Request $request)
+{
+    // ... (seu código existente)
+
+    Auth::login($user);
+
+    return redirect()->route('home');
+}
+
+
+
+
+
+
+
+
+
 
 class RegisterController extends Controller
 {

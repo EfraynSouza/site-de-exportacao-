@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\CategoriaController;
 use App\Http\Controllers\ContatoController;
 use App\Http\Controllers\HomeController;
@@ -11,9 +12,15 @@ Route::get('/contato', function () {
 })->name('contato');
 Route::post('/contato', [ContatoController::class,'EnviarFormulario'])->name('contato.submit');
 
+
+
 Route::get('/login', function () {return view('app.login');})->name('login');
 
 Route::post('/login', [LoginController::class,'EnviarFormulario'])->name('login.submit');
+
+Route::get('/register', function () {return view('app.register');})->name('register');
+
+Route::post('/register', [RegisterController::class,'EnviarFormulario'])->name('register.submit');
 
 Route::get('/sobre-nos', function () {return view('app.sobre-nos');})->name('sobre-nos');
 
